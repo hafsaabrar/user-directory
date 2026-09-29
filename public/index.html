@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>User Directory – Search & View Profiles</title>
+
+    <meta 
+      name="description" 
+      content="Browse and search user profiles fetched dynamically via REST API with details like email, phone, company, and location." 
+    />
+
+    <meta name="author" content="Hafsa Bint E Abrar" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="User Directory – Interactive Team Profile Directory" />
+    <meta property="og:description" content="A beginner-friendly React application to search, filter, and view live user profiles." />
+    <meta property="og:type" content="website" />
+
+    <!-- Schema Markup for AEO & GEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "User Directory App",
+      "applicationCategory": "Utilities",
+      "operatingSystem": "All",
+      "description": "An interactive user directory fetching profiles from JSONPlaceholder API with real-time name and email search filters.",
+      "author": {
+        "@type": "Person",
+        "name": "Hafsa Bint E Abrar"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
